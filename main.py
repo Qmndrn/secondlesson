@@ -10,7 +10,7 @@ email = os.getenv("email")
 password = os.getenv("password")
 
 in_progress_lessons = ["Python введение", "Python введение.Продолжение", "Основы Python"]
-completed_lessons = [""]
+completed_lessons = []
 time = "месяц"
 
 answer = input("Есть ли у Вас завершенные модули? (да/нет): ").lower().strip()
